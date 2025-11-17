@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cardápio - Pizzaria</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff8dc;
+    }
+    header {
+      background: #b22222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #8b0000;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .conteudo {
+      padding: 40px;
+      text-align: center;
+    }
+    .conteudo h1 {
+      color: #b22222;
+      margin-bottom: 30px;
+    }
+    .categoria {
+      margin-top: 40px;
+    }
+    .categoria h2 {
+      color: #8b0000;
+      margin-bottom: 20px;
+    }
+    .cardapio {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .item {
+      background: #fff;
+      border: 2px solid #b22222;
+      border-radius: 10px;
+      padding: 20px;
+      width: 220px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    .item img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    .item h3 {
+      color: #b22222;
+      margin-bottom: 10px;
+    }
+    .item p {
+      font-size: 14px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cardápio da Pizzaria</h1>
+    <p>Confira nossas deliciosas opções 🍕</p>
+  </header>
+
+  <nav>
+    <a href="inicio.html">Início</a>
+    <a href="cardapio.html">Cardápio</a>
+    <a href="venda.html">vendas</a>
+  </nav>
+
+  <div class="conteudo">
+    <!-- Pizzas Tradicionais -->
+    <div class="categoria">
+      <h2>Pizzas Tradicionais</h2>
+      <div class="cardapio">
+        <div class="item">
+          <img src="https://www.receiteria.com.br/wp-content/uploads/receitas-de-pizza-de-calabresa.jpg" alt="Pizza Calabresa">
+          <h3>Calabresa</h3>
+          <p>Molho de tomate, queijo, calabresa e cebola.</p>
+        </div>
+        <div class="item">
+          <img src="https://www.receiteria.com.br/wp-content/uploads/receitas-de-pizza-margherita.jpg" alt="Pizza Margherita">
+          <h3>Margherita</h3>
+          <p>Molho de tomate, mussarela e manjericão fresco.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pizzas Especiais -->
+    <div class="categoria">
+      <h2>Pizzas Especiais</h2>
+      <div class="cardapio">
+        <div class="item">
+          <img src="https://www.receiteria.com.br/wp-content/uploads/receitas-de-pizza-de-frango-com-catupiry.jpg" alt="Pizza Frango com Catupiry">
+          <h3>Frango com Catupiry</h3>
+          <p>Molho de tomate, frango desfiado e catupiry.</p>
+        </div>
+        <div class="item">
+          <img src="https://www.receiteria.com.br/wp-content/uploads/receitas-de-pizza-vegetariana.jpg" alt="Pizza Vegetariana">
+          <h3>Vegetariana</h3>
+          <p>Molho de tomate, queijo, pimentão, cebola, tomate e azeitonas.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pizzas Doces -->
+    <div class="categoria">
+      <h2>Pizzas Doces</h2>
+      <div class="cardapio">
+        <div class="item">
+          <img src="https://www.receiteria.com.br/wp-content/uploads/receitas-de-pizza-de-chocolate.jpg" alt="Pizza Chocolate">
+          <h3>Chocolate</h3>
+          <p>Chocolate ao leite derretido e granulado.</p>
+        </div>
+        <div class="item">
+          <img src="https://www.receiteria.com.br/wp-content/uploads/receitas-de-pizza-de-banana-com-canela.jpg" alt="Pizza Banana com Canela">
+          <h3>Banana com Canela</h3>
+          <p>Banana fatiada, açúcar e canela.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bebidas -->
+    <div class="categoria">
+      <h2>Bebidas</h2>
+      <div class="cardapio">
+        <div class="item">
+          <img src="https://static.vecteezy.com/system/resources/previews/009/887/769/non_2x/can-of-coca-cola-isolated-on-white-background-free-photo.jpg" alt="Refrigerante Lata">
+          <h3>Refrigerante Lata</h3>
+          <p>Coca-Cola, Guaraná, Fanta.</p>
+        </div>
+        <div class="item">
+          <img src="https://www.receiteria.com.br/wp-content/uploads/receitas-de-suco-de-laranja.jpg" alt="Suco Natural">
+          <h3>Suco Natural</h3>
+          <p>Laranja, limão ou maracujá.</p>
+        </div>
+        <div class="item">
+          <img src="https://www.receiteria.com.br/wp-content/uploads/receitas-de-drinks-com-cerveja.jpg" alt="Cerveja Long Neck">
+          <h3>Cerveja Long Neck</h3>
+          <p>Heineken, Budweiser.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
